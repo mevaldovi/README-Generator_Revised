@@ -88,8 +88,3 @@ ${data.email}
 }
 
 module.exports = generateMarkdown;
-
-// renderLicenseBadge();
-// renderLicenseLink();
-// renderLicenseSection();
-// generateMarkdown();
