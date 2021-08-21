@@ -1,32 +1,82 @@
 // TODO: Include packages needed for this application = DONE
+
 const inquirer = require('inquirer');
 const fs = require('fs');
-// const express = require("express");
-const app = express();
-const PORT = 3000;
+const generateMarkdown = require('./utils/generateMarkdown');
 
-app.set("view file", "index.html"); //tells app to view file
+// TODO: Create an array of questions for user input
+const questions = [
+    {
+        type: 'input',
+        message: "What is your project's title?",
+        name: "title",
+    }, 
+    {
+        type: 'input',
+        message: "What is your project's description?",
+        name: "description",
+    },
+    {
+        type: 'input',
+        message: "How do you install your project?",
+        name: "installation",
+    },
+    {
+        type: "input",
+        message: "What can you do with your project?",
+        name: "usage",
+    },
+    {
+        type: "list",
+        message: "What license are you using?",
+        name: "license",
+        choices: [
+            "None",
+            "Apache License 2.0",
+            "GNU General Public License V3.0",
+            "MIT License",
+            "BSD 3-Clause"
+        ]
+    },
+    {
+        type: "input",
+        message: "What are the contribution guidlines?",
+        name: "help",
+    }, 
+    {
+        type: "input",
+        message: "Test Instructions?",
+        name: "test",
+    },
+    {
+        type: "input",
+        message: "Please enter your github username",
+        name: "github"
+    },
+    {
+        type: "input",
+        message: "Please enter your email address",
+        name: "email"
+    }
+];
 
-app.get("/", (req, res) => {
-    res.render("index"); // index refers to index.html
-});
-
-app.listen(3000, () => {
-        console.log("server started on port 3000")
-    }) //telling the port to listen for the server doing its thing
-
-
-//create a promise for each of the questions to load;
-.then((response) => { //
-    console.log(response);
-    writeToFile('indexHTML', generateMarkdown(response)); //write out the files backbone and place all the content from generateMarkdown inside of it !
-    console.log("generated markdown!");
-})
-
-
+// TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-
-    fs.writeFile(fileName, data, (err) =>
-        err ? console.log(err) : console.log('Successfully created indec.html!')
+    //fill template in with recorded data
+    fs.writeFile(`${fileName}.md`, generateMarkdown(data), (err) =>
+    err ? console.error(err) : console.log('Success!')
     );
 }
+
+// TODO: Create a function to initialize app
+function init() {
+    inquirer.prompt(questions)
+    .then((response) => 
+    //write the recorded data to a README.md file
+        writeToFile("README", response),
+    );
+}
+
+// Function call to initialize app
+init();
+
