@@ -48,9 +48,13 @@ function renderLicenseSection(license) {
 //create function  that will generate README template that will hold the data user enters from inquirer
 function generateMarkdown(data) {
   return `# ${data.title}
+
   ${renderLicenseSection(data.license)}
+
 ## Description
+
 ${data.description}
+
 ## Table of Contents
 [Installation](#Installation)  
 [Usage](#Usage)  
@@ -58,23 +62,34 @@ ${data.description}
 [Contributing](#Contribution-Guidelines)  
 [Tests](#How-To-Test)  
 [COntact](#Contact)  
+
 ## Installation
+
 \`\`\`${data.install}\`\`\`
+
 ## Usage
+
 ${data.usage}
+
 ## Contribution Guidelines
+
 ${data.help}
+
 ## How to Test
+
 ${data.test}
+
 ## Contact
+
 [github](https://github.com/${data.github})
+
 ${data.email}  
 `;
 }
 
 module.exports = generateMarkdown;
 
-renderLicenseBadge();
-renderLicenseLink();
-renderLicenseSection();
-generateMarkdown();
+// renderLicenseBadge();
+// renderLicenseLink();
+// renderLicenseSection();
+// generateMarkdown();
