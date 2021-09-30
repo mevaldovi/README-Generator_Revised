@@ -1,4 +1,6 @@
 # README Generator
+<img width="755" alt="README" src="https://user-images.githubusercontent.com/83307023/135497661-5985f554-998b-4584-b726-0eb2243992fe.PNG">
+
 
   [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -8,10 +10,15 @@ Uses node packages and js to dynamically generate a README file
 
 ## Table of Contents
 [Installation](#Installation)  
-[Usage](#Usage)  
+
+[Usage](#Usage)
+
 [License](#License)  
-[Contributing](#Contribution-Guidelines)  
-[Tests](#How-To-Test)  
+
+[Contributing](#Contribution-Guidelines) 
+
+[Tests](#How-To-Test)
+
 [COntact](#Contact)  
 
 ## Installation
@@ -35,6 +42,6 @@ Full Launch Video [here](https://drive.google.com/file/d/1yuwqE0nUSRXwtrX48BLf_t
 
 ## Contact
 
-[github](https://github.com/mevaldovi)
+[Github](https://github.com/mevaldovi)
 
 mevaldovi@gmail.com  
