@@ -20,7 +20,7 @@ Uses node packages and js to dynamically generate a README file
 
 [Tests](#How-To-Test)
 
-[COntact](#Contact)  
+[Contact](#Contact)  
 
 ## Installation
 
