@@ -1,5 +1,5 @@
 # README Generator
-[Live Demo](https://drive.google.com/file/d/1yuwqE0nUSRXwtrX48BLf_tEaDE3jma6k/view)
+Live demo : [https://drive.google.com/file/d/1yuwqE0nUSRXwtrX48BLf_tEaDE3jma6k/view](https://drive.google.com/file/d/1yuwqE0nUSRXwtrX48BLf_tEaDE3jma6k/view)
 
 <img width="755" alt="README" src="https://user-images.githubusercontent.com/83307023/135497661-5985f554-998b-4584-b726-0eb2243992fe.PNG">
 
@@ -40,7 +40,6 @@ Currently not accepting contribution.
 This README file you are reading is the actual test of the project.
 
 
-Full Launch Video [here](https://drive.google.com/file/d/1yuwqE0nUSRXwtrX48BLf_tEaDE3jma6k/view)
 
 ## Contact
 
