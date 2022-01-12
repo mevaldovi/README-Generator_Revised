@@ -27,7 +27,9 @@ Uses node packages and js to dynamically generate a README file
 
 - Clone this repo
 
-- npm install 
+- npm install
+
+- cd index.js
 
 - node index.js
 
@@ -49,4 +51,4 @@ This README file you are reading is the actual test of the project.
 
 My github : [https://github.com/mevaldovi](https://github.com/mevaldovi)
 
-Email me : mevaldovi@gmail.com  
+Email me : [mevaldovi@gmail.com](mailto:mevaldovi@gmail.com) 
