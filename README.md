@@ -25,11 +25,15 @@ Uses node packages and js to dynamically generate a README file
 
 ## Installation
 
-Clone this repo down, then type "node index.js" into your terminal from your code editor.
+- Clone this repo
+
+- npm install 
+
+- node index.js
 
 ## Usage
 
-Currently not accepting help.
+See description.
 
 ## Contribution Guidelines
 
@@ -43,6 +47,6 @@ This README file you are reading is the actual test of the project.
 
 ## Contact
 
-[Github](https://github.com/mevaldovi)
+My github : [github.com/mevaldovi](https://github.com/mevaldovi)
 
 mevaldovi@gmail.com  
