@@ -25,13 +25,17 @@ Uses node packages and js to dynamically generate a README file
 
 ## Installation
 
-- Clone this repo
+Bold text indicates commands in the terminal; italicized text indicates steps to take
 
-- npm install
+- _Clone this repo_
 
-- cd index.js
+- **npm install**
 
-- node index.js
+- **cd index.js**
+
+- **node index.js**
+
+- _Respond to prompts_
 
 ## Usage
 
