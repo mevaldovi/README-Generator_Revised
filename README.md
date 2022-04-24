@@ -25,16 +25,14 @@ Uses node packages and js to dynamically generate a README file
 
 ## Installation
 
-Bold text indicates commands in the terminal; italicized text indicates steps to take
-
 - _Clone this repo_
 
-- **npm install**
+- `npm install`
 
-- **cd index.js**
+- `cd index.js`
 
-- **node index.js**
-
+- `node index.js`
+- 
 - _Respond to prompts_
 
 ## Usage
@@ -53,6 +51,9 @@ This README file you are reading is the actual test of the project.
 
 ## Contact
 
-My github : [https://github.com/mevaldovi](https://github.com/mevaldovi)
+Github: [https://github.com/mevaldovi](https://github.com/mevaldovi)
 
-Email me : [mevaldovi@gmail.com](mailto:mevaldovi@gmail.com) 
+LinkedIn : [https://www.linkedin.com/in/marie-valdovinos-a616b21b1](https://www.linkedin.com/in/marie-valdovinos-a616b21b1)
+
+
+Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
