@@ -32,7 +32,6 @@ Uses node packages and js to dynamically generate a README file
 - `cd index.js`
 
 - `node index.js`
-- 
 - _Respond to prompts_
 
 ## Usage
@@ -47,6 +46,9 @@ Currently not accepting contribution.
 
 This README file you are reading is the actual test of the project.
 
+## Technology
+[<img alt="medium" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />](https://nodejs.org/en/docs)
+[<img alt="medium" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 
 ## Contact
@@ -57,3 +59,4 @@ LinkedIn : [https://www.linkedin.com/in/marie-valdovinos-a616b21b1](https://www.
 
 
 Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
+
